@@ -240,6 +240,30 @@ close20.addEventListener('click', function () {
   popup20.style.display = 'none';
 });
 
+var open21 = document.getElementById('open21');
+var popup21 = document.getElementById('popup21');
+var close21 = document.getElementById('close21');
+
+open21.addEventListener('click', function () {
+  popup21.style.display = 'flex';
+});
+
+close21.addEventListener('click', function () {
+  popup21.style.display = 'none';
+});
+
+var open22 = document.getElementById('open22');
+var popup22 = document.getElementById('popup22');
+var close22 = document.getElementById('close22');
+
+open22.addEventListener('click', function () {
+  popup22.style.display = 'flex';
+});
+
+close22.addEventListener('click', function () {
+  popup22.style.display = 'none';
+});
+
 // 看大圖 1
 
 $(document).ready(function () {
@@ -1760,5 +1784,162 @@ $(document).ready(function () {
   bg2008.addEventListener('click', function () {
     $(fullBox20).css('visibility', 'visible');
     swiper20.slideTo(8);
+  });
+});
+
+// 看大圖 21
+
+$(document).ready(function () {
+  var swiper21 = new Swiper('.swiper-container21', {
+    loop: true,
+    lazy: true,
+    autoplay: 1000,
+    slidesPerView: 1,
+  });
+
+  var fullBox21 = document.getElementById('fullBox21');
+  var leftArrow21 = document.getElementById('leftArrow21');
+  var rightArrow21 = document.getElementById('rightArrow21');
+  var swiperContainer21 = document.getElementById('swiperContainer21');
+  var bg2101 = document.getElementById('bg2101');
+  var bg2102 = document.getElementById('bg2102');
+  var bg2103 = document.getElementById('bg2103');
+  var bg2104 = document.getElementById('bg2104');
+  var bg2105 = document.getElementById('bg2105');
+  var bg2106 = document.getElementById('bg2106');
+  var bg2107 = document.getElementById('bg2107');
+  var bg2108 = document.getElementById('bg2108');
+
+  fullBox21.addEventListener('click', function () {
+    $(fullBox21).css('visibility', 'hidden');
+  });
+
+  swiperContainer21.addEventListener('click', function (event) {
+    // event.stopPropagation();
+  });
+
+  leftArrow21.addEventListener('click', function (event) {
+    swiper21.slidePrev();
+    event.stopPropagation();
+  });
+
+  rightArrow21.addEventListener('click', function (event) {
+    swiper21.slideNext();
+    event.stopPropagation();
+  });
+
+  bg2101.addEventListener('click', function () {
+    $(fullBox21).css('visibility', 'visible');
+    swiper21.slideTo(1);
+  });
+
+  bg2102.addEventListener('click', function () {
+    $(fullBox21).css('visibility', 'visible');
+    swiper21.slideTo(2);
+  });
+  bg2103.addEventListener('click', function () {
+    $(fullBox21).css('visibility', 'visible');
+    swiper21.slideTo(3);
+  });
+  bg2104.addEventListener('click', function () {
+    $(fullBox21).css('visibility', 'visible');
+    swiper21.slideTo(4);
+  });
+  bg2105.addEventListener('click', function () {
+    $(fullBox21).css('visibility', 'visible');
+    swiper21.slideTo(5);
+  });
+  bg2106.addEventListener('click', function () {
+    $(fullBox21).css('visibility', 'visible');
+    swiper21.slideTo(6);
+  });
+  bg2107.addEventListener('click', function () {
+    $(fullBox21).css('visibility', 'visible');
+    swiper21.slideTo(7);
+  });
+  bg2108.addEventListener('click', function () {
+    $(fullBox21).css('visibility', 'visible');
+    swiper21.slideTo(8);
+  });
+});
+
+// 看大圖 22
+
+$(document).ready(function () {
+  var swiper22 = new Swiper('.swiper-container22', {
+    loop: true,
+    lazy: true,
+    autoplay: 1000,
+    slidesPerView: 1,
+  });
+
+  var fullBox22 = document.getElementById('fullBox22');
+  var leftArrow22 = document.getElementById('leftArrow22');
+  var rightArrow22 = document.getElementById('rightArrow22');
+  var swiperContainer22 = document.getElementById('swiperContainer22');
+  var bg2201 = document.getElementById('bg2201');
+  var bg2202 = document.getElementById('bg2202');
+  var bg2203 = document.getElementById('bg2203');
+  var bg2204 = document.getElementById('bg2204');
+  var bg2205 = document.getElementById('bg2205');
+  var bg2206 = document.getElementById('bg2206');
+  var bg2207 = document.getElementById('bg2207');
+  var bg2208 = document.getElementById('bg2208');
+  var bg2209 = document.getElementById('bg2209');
+
+  fullBox22.addEventListener('click', function () {
+    $(fullBox22).css('visibility', 'hidden');
+  });
+
+  swiperContainer22.addEventListener('click', function (event) {
+    // event.stopPropagation();
+  });
+
+  leftArrow22.addEventListener('click', function (event) {
+    swiper22.slidePrev();
+    event.stopPropagation();
+  });
+
+  rightArrow22.addEventListener('click', function (event) {
+    swiper22.slideNext();
+    event.stopPropagation();
+  });
+
+  bg2201.addEventListener('click', function () {
+    $(fullBox22).css('visibility', 'visible');
+    swiper22.slideTo(1);
+  });
+
+  bg2202.addEventListener('click', function () {
+    $(fullBox22).css('visibility', 'visible');
+    swiper22.slideTo(2);
+  });
+  bg2203.addEventListener('click', function () {
+    $(fullBox22).css('visibility', 'visible');
+    swiper22.slideTo(3);
+  });
+  bg2204.addEventListener('click', function () {
+    $(fullBox22).css('visibility', 'visible');
+    swiper22.slideTo(4);
+  });
+  bg2205.addEventListener('click', function () {
+    $(fullBox22).css('visibility', 'visible');
+    swiper22.slideTo(5);
+  });
+  bg2206.addEventListener('click', function () {
+    $(fullBox22).css('visibility', 'visible');
+    swiper22.slideTo(6);
+  });
+  bg2207.addEventListener('click', function () {
+    $(fullBox22).css('visibility', 'visible');
+    swiper22.slideTo(7);
+  });
+  bg2208.addEventListener('click', function () {
+    $(fullBox22).css('visibility', 'visible');
+    swiper22.slideTo(8);
+  });
+  bg2209.addEventListener('click', function () {
+    $(fullBox22).css('visibility', 'visible');
+    swiper22.slideTo(9);
   });
 });
